@@ -24,8 +24,13 @@
             <groupId>com.taotao</groupId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
     <build>
         <!-- 配置插件 要运行的是聚合工程,应该在聚合工程中运行-->
         <plugins>
